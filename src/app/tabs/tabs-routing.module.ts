@@ -16,7 +16,7 @@ const routes: Routes = [
         loadChildren: () => import('../mensajes/mensajes.module').then(m => m.MensajesPageModule)
       },
       {
-        path: 'tab3',
+        path: 'alert',
         loadChildren: () => import('../alert/alert.module').then(m => m.AlertPageModule)
       },
       {
