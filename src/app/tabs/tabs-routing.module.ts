@@ -12,8 +12,8 @@ const routes: Routes = [
         loadChildren: () => import('../llamadas/llamadas.module').then(m => m.LlamadasPageModule)
       },
       {
-        path: 'tab2',
-        loadChildren: () => import('../tab2/tab2.module').then(m => m.Tab2PageModule)
+        path: 'mensajes',
+        loadChildren: () => import('../mensajes/mensajes.module').then(m => m.MensajesPageModule)
       },
       {
         path: 'tab3',
