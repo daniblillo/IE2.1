@@ -12,6 +12,10 @@ const routes: Routes = [
         loadChildren: () => import('../llamadas/llamadas.module').then(m => m.LlamadasPageModule)
       },
       {
+        path: 'contacto',
+        loadChildren: () => import('../llamadas/contacto/contacto.module').then(m => m.ContactoPageModule)
+      },
+      {
         path: 'mensajes',
         loadChildren: () => import('../mensajes/mensajes.module').then(m => m.MensajesPageModule)
       },

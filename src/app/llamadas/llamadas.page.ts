@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-llamadas',
@@ -7,6 +8,6 @@ import { Component } from '@angular/core';
 })
 export class LlamadasPage {
 
-  constructor() {}
+  constructor(){}
 
 }
