@@ -18,7 +18,7 @@ export class AlertPage implements OnInit {
       backdropDismiss: false,
       header: 'Descripción',
       subHeader: 'I.E. 2.1',
-      message: 'PROG. MULT. | La aplicación',
+      message: 'PROG. MULT. | La aplicación ha sido realizada por Daniel García Villalba y probada en Android Studio y en un dispositivo físico.',
       buttons: ['VOLVER']
     });
 
