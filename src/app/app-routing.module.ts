@@ -5,6 +5,19 @@ const routes: Routes = [
   {
     path: '',
     loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
+  },
+  {
+    path: 'contacto',
+    children: [
+      {
+        path: "",
+        loadChildren: () => import('./llamadas/llamadas.module').then( m => m.LlamadasPageModule)
+      },
+      {
+        path: ":contactoId",
+        loadChildren: () => import('./llamadas/contacto/contacto.module').then( m => m.ContactoPageModule)
+      }
+    ]
   }
 ];
 @NgModule({

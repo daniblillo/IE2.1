@@ -8,7 +8,7 @@
       </ion-back-button>
     </ion-buttons>
     <ion-title>
-      Contacto
+      {{contacto.title}}
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -19,6 +19,14 @@
       <ion-title size="large">Contacto</ion-title>
     </ion-toolbar>
   </ion-header>
+  <p></p>
+  <center><ion-avatar>
+      <ion-img [src]="contacto.imagenURL"></ion-img>
+    </ion-avatar></center>
+
+  <h1 class="ion-text-center">{{contacto.title}}</h1>
+  <h3 class="ion-text-center">{{contacto.comments}}</h3>
+
 
   <ion-element><ion-button expand="block" Href="/">REGRESAR</ion-button></ion-element>
 

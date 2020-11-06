@@ -14,7 +14,7 @@
   </ion-header>
 
   <ion-list>
-    <ion-item *ngFor="let contacto of contacto" [routerLink]="['/tabs/contacto']">
+    <ion-item *ngFor="let contacto of contacto" [routerLink]="['/contacto', contacto.id]">
       <ion-avatar slot="start">
         <ion-img [src]="contacto.imageURL"></ion-img>
       </ion-avatar>

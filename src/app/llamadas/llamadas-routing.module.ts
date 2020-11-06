@@ -6,6 +6,10 @@ const routes: Routes = [
   {
     path: '',
     component: LlamadasPage,
+  },
+  {
+    path: 'contacto',
+    loadChildren: () => import('./contacto/contacto.module').then( m => m.ContactoPageModule)
   }
 ];
 
