@@ -20,13 +20,12 @@
     </ion-toolbar>
   </ion-header>
   <p></p>
-  <center><ion-avatar>
-      <ion-img [src]="contacto.imagenURL"></ion-img>
-    </ion-avatar></center>
+  <ion-card class="avatar">
+  <ion-img [src]="contacto.imagenURL"></ion-img>
+  </ion-card>
 
   <h1 class="ion-text-center">{{contacto.title}}</h1>
   <h3 class="ion-text-center">{{contacto.comments}}</h3>
-
 
   <ion-element><ion-button expand="block" Href="/">REGRESAR</ion-button></ion-element>
 
